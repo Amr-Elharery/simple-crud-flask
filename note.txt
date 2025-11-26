@@ -1,0 +1,6 @@
+First Run:
+  Initialize migrations & create tables
+    set FLASK_APP=run.py
+    flask db init
+    flask db migrate -m "create products"
+    flask db upgrade
